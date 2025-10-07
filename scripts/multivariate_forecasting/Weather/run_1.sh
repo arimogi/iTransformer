@@ -17,6 +17,8 @@ python -u run.py \
   --dec_in 21 \
   --c_out 21 \
   --des 'Exp' \
-  --d_model 512\
-  --d_ff 512\
-  --itr 1
+  --d_model 512 \
+  --d_ff 512 \
+  --itr 1 \
+  --num_workers 0 \
+  --use_gpu True
